@@ -149,7 +149,7 @@ U 1 1 55DF7DE1
 P 4150 2000
 F 0 "P8" H 4150 3200 50  0000 C CNN
 F 1 "BeagleBone_Black_Header" V 4200 2050 50  0000 C CNN
-F 2 "Socket_BeagleBone_Black:Socket_BeagleBone_Black" H 4150 1150 60  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x23_P2.54mm_Vertical" H 4150 1150 60  0001 C CNN
 F 3 "" H 4150 1150 60  0000 C CNN
 	1    4150 2000
 	1    0    0    -1  
@@ -1269,7 +1269,7 @@ U 1 1 55DF7DBA
 P 1900 2050
 F 0 "P9" H 1900 3250 50  0000 C CNN
 F 1 "BeagleBone_Black_Header" V 1950 2100 50  0000 C CNN
-F 2 "Socket_BeagleBone_Black:Socket_BeagleBone_Black" H 1900 1200 60  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x23_P2.54mm_Vertical" H 1900 1200 60  0001 C CNN
 F 3 "" H 1900 1200 60  0000 C CNN
 	1    1900 2050
 	1    0    0    -1  
