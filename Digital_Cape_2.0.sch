@@ -511,141 +511,38 @@ I2C2_SDA
 Text Label 10500 2400 0    50   ~ 0
 I2C2_SCL
 $Comp
-L Digital_Cape_2.0-rescue:BME_280-BME_280_Baro_Pressure BME280
+L Sensor:BME280 BME280
 U 1 1 5F9DE29A
-P 2350 5450
-F 0 "BME280" H 2350 6165 50  0000 C CNN
-F 1 "BME_280" H 2350 6074 50  0000 C CNN
-F 2 "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering" H 1800 6150 50  0001 C CNN
-F 3 "" H 1800 6150 50  0001 C CNN
-	1    2350 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0107
-U 1 1 5F9DF982
-P 2450 6200
-F 0 "#PWR0107" H 2450 5950 50  0001 C CNN
-F 1 "GND" H 2455 6027 50  0000 C CNN
-F 2 "" H 2450 6200 50  0001 C CNN
-F 3 "" H 2450 6200 50  0001 C CNN
-	1    2450 6200
+P 2500 5400
+F 0 "BME280" H 2800 5850 50  0000 C CNN
+F 1 "BME_280" H 2150 5850 50  0000 C CNN
+F 2 "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering" H 1950 6100 50  0001 C CNN
+F 3 "" H 1950 6100 50  0001 C CNN
+	1    2500 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C8
 U 1 1 5F9E0803
-P 1800 5800
-F 0 "C8" H 1915 5846 50  0000 L CNN
-F 1 "100nF" H 1915 5755 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 1838 5650 50  0001 C CNN
-F 3 "~" H 1800 5800 50  0001 C CNN
-	1    1800 5800
+P 1650 5400
+F 0 "C8" H 1765 5446 50  0000 L CNN
+F 1 "100nF" H 1765 5355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 1688 5250 50  0001 C CNN
+F 3 "~" H 1650 5400 50  0001 C CNN
+	1    1650 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C7
 U 1 1 5F9E108B
-P 1300 5800
-F 0 "C7" H 1415 5846 50  0000 L CNN
-F 1 "100nF" H 1415 5755 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 1338 5650 50  0001 C CNN
-F 3 "~" H 1300 5800 50  0001 C CNN
-	1    1300 5800
+P 1150 5400
+F 0 "C7" H 1265 5446 50  0000 L CNN
+F 1 "100nF" H 1265 5355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 1188 5250 50  0001 C CNN
+F 3 "~" H 1150 5400 50  0001 C CNN
+	1    1150 5400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R7
-U 1 1 5F9E1AD3
-P 3700 5350
-F 0 "R7" H 3770 5396 50  0000 L CNN
-F 1 "4.7k" H 3770 5305 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3630 5350 50  0001 C CNN
-F 3 "~" H 3700 5350 50  0001 C CNN
-	1    3700 5350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R8
-U 1 1 5F9E2971
-P 3250 5350
-F 0 "R8" H 3320 5396 50  0000 L CNN
-F 1 "4.7k" H 3320 5305 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3180 5350 50  0001 C CNN
-F 3 "~" H 3250 5350 50  0001 C CNN
-	1    3250 5350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2750 5050 2900 5050
-Wire Wire Line
-	1950 5400 1800 5400
-Wire Wire Line
-	1800 5400 1800 4600
-Wire Wire Line
-	1800 5400 1800 5650
-Connection ~ 1800 5400
-Wire Wire Line
-	2900 5950 2450 5950
-Wire Wire Line
-	2450 5950 2450 6200
-Wire Wire Line
-	2900 5050 2900 5950
-Wire Wire Line
-	1800 5950 1950 5950
-Connection ~ 2450 5950
-Wire Wire Line
-	1300 5950 1550 5950
-Connection ~ 1800 5950
-Wire Wire Line
-	1300 5650 1300 5050
-Wire Wire Line
-	1950 5200 1550 5200
-Wire Wire Line
-	1550 5200 1550 5950
-Connection ~ 1550 5950
-Wire Wire Line
-	1550 5950 1800 5950
-Wire Wire Line
-	1950 5050 1300 5050
-Connection ~ 1300 5050
-Wire Wire Line
-	1300 5050 1300 4350
-Wire Wire Line
-	2750 5200 3250 5200
-Wire Wire Line
-	3250 5200 3700 5200
-Connection ~ 3250 5200
-Wire Wire Line
-	3700 5200 3700 4600
-Wire Wire Line
-	3700 4600 1800 4600
-Connection ~ 3700 5200
-Connection ~ 1800 4600
-Wire Wire Line
-	1800 4600 1800 4350
-Wire Wire Line
-	2750 5550 2800 5550
-Wire Wire Line
-	2800 5550 2800 5900
-Wire Wire Line
-	2800 5900 3700 5900
-Wire Wire Line
-	2750 5400 3050 5400
-Wire Wire Line
-	3050 5400 3050 5700
-Wire Wire Line
-	3050 5700 3250 5700
-Wire Wire Line
-	3250 5500 3250 5700
-Connection ~ 3250 5700
-Wire Wire Line
-	3250 5700 4050 5700
-Wire Wire Line
-	3700 5500 3700 5900
-Connection ~ 3700 5900
-Wire Wire Line
-	3700 5900 4050 5900
 Text Notes 1350 6650 0    50   Italic 10
 BME 280 - Barometric Pressure and Humidity Sensor
 Text Notes 6550 4600 0    50   Italic 10
@@ -658,9 +555,9 @@ Text Label 5450 3100 2    50   ~ 0
 I2C1_SCL
 Text Label 5450 3400 2    50   ~ 0
 I2C1_SDA
-Text Label 4050 5700 0    50   ~ 0
+Text Label 4100 5500 2    50   ~ 0
 I2C2_SDA
-Text Label 4050 5900 0    50   ~ 0
+Text Label 4100 5300 2    50   ~ 0
 I2C2_SCL
 NoConn ~ 3950 1000
 NoConn ~ 4450 1000
@@ -806,11 +703,6 @@ Wire Wire Line
 Connection ~ 8500 3800
 Wire Wire Line
 	8500 3800 8500 4000
-Wire Wire Line
-	1950 5550 1950 5950
-Connection ~ 1950 5950
-Wire Wire Line
-	1950 5950 2450 5950
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 60275A13
@@ -1224,10 +1116,10 @@ Wire Wire Line
 Wire Wire Line
 	6800 1400 6800 1600
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0107
 U 1 1 605027B5
 P 6800 650
-F 0 "#PWR?" H 6800 500 50  0001 C CNN
+F 0 "#PWR0107" H 6800 500 50  0001 C CNN
 F 1 "+3V3" H 6800 790 50  0000 C CNN
 F 2 "" H 6800 650 60  0000 C CNN
 F 3 "" H 6800 650 60  0000 C CNN
@@ -1235,10 +1127,10 @@ F 3 "" H 6800 650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0111
 U 1 1 6050881B
 P 5350 2200
-F 0 "#PWR?" H 5350 2050 50  0001 C CNN
+F 0 "#PWR0111" H 5350 2050 50  0001 C CNN
 F 1 "+3V3" H 5350 2340 50  0000 C CNN
 F 2 "" H 5350 2200 60  0000 C CNN
 F 3 "" H 5350 2200 60  0000 C CNN
@@ -1246,25 +1138,127 @@ F 3 "" H 5350 2200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
-U 1 1 6051FCC3
-P 1300 4350
-F 0 "#PWR?" H 1300 4200 50  0001 C CNN
-F 1 "+3V3" H 1300 4490 50  0000 C CNN
-F 2 "" H 1300 4350 60  0000 C CNN
-F 3 "" H 1300 4350 60  0000 C CNN
-	1    1300 4350
+L Device:R R8
+U 1 1 5F9E2971
+P 3650 4850
+F 0 "R8" H 3720 4896 50  0000 L CNN
+F 1 "4.7k" H 3720 4805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3580 4850 50  0001 C CNN
+F 3 "~" H 3650 4850 50  0001 C CNN
+	1    3650 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 4800 2400 4600
+$Comp
+L power:+3V3 #PWR0116
+U 1 1 6057A403
+P 2500 4500
+F 0 "#PWR0116" H 2500 4350 50  0001 C CNN
+F 1 "+3V3" H 2515 4673 50  0000 C CNN
+F 2 "" H 2500 4500 50  0001 C CNN
+F 3 "" H 2500 4500 50  0001 C CNN
+	1    2500 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4500 2500 4600
+Wire Wire Line
+	2500 4600 2400 4600
+Wire Wire Line
+	2500 4600 2600 4600
+Wire Wire Line
+	2600 4600 2600 4800
+Connection ~ 2500 4600
+Wire Wire Line
+	2400 6000 2400 6200
+Wire Wire Line
+	2400 6200 2500 6200
+Wire Wire Line
+	2500 6200 2500 6250
+Connection ~ 2500 6200
+Wire Wire Line
+	2500 6200 2600 6200
+$Comp
+L power:GND #PWR0117
+U 1 1 605AF79D
+P 2500 6250
+F 0 "#PWR0117" H 2500 6000 50  0001 C CNN
+F 1 "GND" H 2505 6077 50  0000 C CNN
+F 2 "" H 2500 6250 50  0001 C CNN
+F 3 "" H 2500 6250 50  0001 C CNN
+	1    2500 6250
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
-U 1 1 60520721
-P 1800 4350
-F 0 "#PWR?" H 1800 4200 50  0001 C CNN
-F 1 "+3V3" H 1800 4490 50  0000 C CNN
-F 2 "" H 1800 4350 60  0000 C CNN
-F 3 "" H 1800 4350 60  0000 C CNN
-	1    1800 4350
-	1    0    0    -1  
+L Device:R R7
+U 1 1 5F9E1AD3
+P 3300 4850
+F 0 "R7" H 3370 4896 50  0000 L CNN
+F 1 "4.7k" H 3370 4805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3230 4850 50  0001 C CNN
+F 3 "~" H 3300 4850 50  0001 C CNN
+	1    3300 4850
+	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	3100 5500 3650 5500
+Wire Wire Line
+	3100 5300 3300 5300
+Wire Wire Line
+	3300 5300 3300 5000
+Wire Wire Line
+	3100 5100 3250 5100
+Wire Wire Line
+	3250 5100 3250 6200
+Wire Wire Line
+	3250 6200 2600 6200
+Connection ~ 2600 6200
+Wire Wire Line
+	2600 6200 2600 6000
+Wire Wire Line
+	3650 5000 3650 5500
+Wire Wire Line
+	3300 4700 3300 4600
+Wire Wire Line
+	3300 4600 2600 4600
+Connection ~ 2600 4600
+Wire Wire Line
+	3650 4700 3650 4600
+Wire Wire Line
+	3650 4600 3400 4600
+Connection ~ 3300 4600
+Wire Wire Line
+	3100 5700 3400 5700
+Wire Wire Line
+	3400 5700 3400 4600
+Connection ~ 3400 4600
+Wire Wire Line
+	3400 4600 3300 4600
+Wire Wire Line
+	2400 4600 1650 4600
+Wire Wire Line
+	1650 4600 1650 5250
+Connection ~ 2400 4600
+Wire Wire Line
+	1150 5250 1150 4600
+Wire Wire Line
+	1150 4600 1650 4600
+Connection ~ 1650 4600
+Wire Wire Line
+	1650 5550 1650 6200
+Wire Wire Line
+	1650 6200 2400 6200
+Connection ~ 2400 6200
+Wire Wire Line
+	1150 5550 1150 6200
+Wire Wire Line
+	1150 6200 1650 6200
+Connection ~ 1650 6200
+Wire Wire Line
+	4100 5500 3650 5500
+Connection ~ 3650 5500
+Wire Wire Line
+	3300 5300 4100 5300
+Connection ~ 3300 5300
 $EndSCHEMATC
