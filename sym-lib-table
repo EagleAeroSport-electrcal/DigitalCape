@@ -1,6 +1,3 @@
 (sym_lib_table
-  (lib (name Digital_Cape_2.0-rescue)(type Legacy)(uri ${KIPRJMOD}/Digital_Cape_2.0-rescue.lib)(options "")(descr ""))
   (lib (name pwr_BeagleBone)(type Legacy)(uri ${KIPRJMOD}/pwr_BeagleBone.lib)(options "")(descr ""))
-  (lib (name Digital_Cape_2.0-cache)(type Legacy)(uri ${KIPRJMOD}/Digital_Cape_2.0-cache.lib)(options "")(descr ""))
-  (lib (name BeagleBone-Black-Cape-cache)(type Legacy)(uri ${KIPRJMOD}/BeagleBone-Black-Cape-cache.lib)(options "")(descr ""))
 )
